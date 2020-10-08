@@ -15,11 +15,26 @@ html {
 #title {
 
     height: 100px;
+    font-family: 'VT323', monospace;
+    font-size: 100px;
     color: #ffffff;
     line-height: 100px;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
 
     animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+  #title1 {
+
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 6s; /* don't forget to set a duration! */
   }
 
